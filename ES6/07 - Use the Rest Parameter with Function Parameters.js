@@ -1,4 +1,7 @@
 const sum = (...args) => {
-  return args.reduce((a, b) => a + b, 0);
+  let total = 0;
+  for (let i = 0; i < args.length; i++) {
+    total += args[i];
+  }
+  return total;
 }
-console.log(sum(1, 2, 3)); // 6
