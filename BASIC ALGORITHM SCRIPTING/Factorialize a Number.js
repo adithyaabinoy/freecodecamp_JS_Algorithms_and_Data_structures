@@ -1,6 +1,6 @@
 function factorialize(num) {
   let product = 1;
-  for (let i = 2; i <= num; i++) {
+  for (let i = 1; i <= num; i++) {
     product *= i;
   }
   return product;
