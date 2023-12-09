@@ -9,4 +9,4 @@ return a + 1;
 }
 console.log(fixedValue)
 const b = incrementer(fixedValue)
-console.log(b)
+console.log(b);
